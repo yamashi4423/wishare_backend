@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+  wishare_backend:
+    build: .
+    container_name: wishare_backend_container
+    ports:
+      - "8080:8000"
