@@ -1,1 +1,6 @@
 .env
+
+# pycache
+backend/__pycache__
+products/__pycache__
+products/migrations/__pycache__
