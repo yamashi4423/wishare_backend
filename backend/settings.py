@@ -82,12 +82,12 @@ WSGI_APPLICATION = "backend.wsgi.application"
 
 DATABASES = {
     "default": {
-        'ENGINE': os.environ['POSTGRES_ENGINE'],
-        'NAME': os.environ['POSTGRES_NAME'],
-        'USER': os.environ['POSTGRES_USER'],
-        'PASSWORD': os.environ['POSTGRES_PASSWORD'],
-        'HOST': os.environ['POSTGRES_HOST'],
-        'PORT': os.environ['POSTGRES_PORT'],
+        'ENGINE': os.environ['DB_ENGINE'],
+        'NAME': os.environ['DB_NAME'],
+        'USER': os.environ['DB_USER'],
+        'PASSWORD': os.environ['DB_PASSWORD'],
+        'HOST': os.environ['DB_HOST'],
+        'PORT': os.environ['DB_PORT'],
     }
 }
 
